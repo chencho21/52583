@@ -1,0 +1,2 @@
+variable y = 10
+imprimir(y);

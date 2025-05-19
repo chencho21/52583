@@ -1,0 +1,43 @@
+ Analizador con ANTLR4 y JavaScript
+Este proyecto implementa un analizador léxico, sintáctico e intérprete básico usando **ANTLR4** y **Node.js**, capaz de procesar un lenguaje personalizado y traducirlo a JavaScript.
+
+
+
+ Requisitos previos
+
+Antes de comenzar, asegurate de tener instalado:
+
+- [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Node.js](https://nodejs.org/)
+- [ANTLR 4.13.2 (archivo .jar)](https://www.antlr.org/download/antlr-4.13.2-complete.jar)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+---
+
+ Instalación
+
+1. Cloná o descargá el proyecto.
+2. En la raíz del proyecto, instalá las dependencias de Node:
+
+bash
+npm install
+
+desde la terminal hay que ejecutar 
+java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor Analizador.g4
+
+
+ejemplo de codigo de entrada
+ function saludo {}
+
+ejecuta con:
+npm start
+
+salida esperada
+ Entrada válida.
+
+Se reconoció una función
+function saludo() {
+  // cuerpo
+}
+
+    
